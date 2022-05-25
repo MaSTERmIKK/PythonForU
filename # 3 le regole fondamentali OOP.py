@@ -4,7 +4,8 @@
 
 #  Pyt. è un linguaggio debolmenete tipizzato.  Definizione non tecnica:  Non tipizzato
 
-#  Polimorfismo per inclusione: la dove un tipo non è neccesario non viene utilizzato
+# Python sfrutta il Polimorfismo per inclusione
+
 
 #  Variabili
 
@@ -15,17 +16,17 @@ from msilib.schema import Class
   
 
 
-numero = 10         # non interessa a python che tipo di valore tu contega
+numero = 10         # non interessa a python che tipo di valore contega
 numero =  0        # quando un valore è null o indefinito o 0 l'unico valore che ha è False
 
 #   UN LIVELLO DI ASTRAZIONE DEL POLIMORFISMO
 #   ogni oggetto in python che può avere un valore, accetta controlli booleani, 
 #   avendo una tipizzazione debole non importa se è o non è un booleano python 
-#   comunque andare andare a copntrollarlo tramite il suo valore reale 
+#   si può comunque andare andare a controllarlo tramite il suo valore reale 
 
 numero != True
    
-stringa = "Python"   #  questa variabile la uso in metodo x
+stringa = "Python"   #  questa variabile la uso in metodo X
 numero = "mirko"
  
 nomelista = [1, 2, 3, stringa, "mirko", True, numero ]
@@ -155,7 +156,7 @@ p1.age = 20    # il comando per dare un valore a quel elemento
 del p1     # è il commando per eliminare l'oggeto
 
 class Person2:
-  pass     # è un comando per evitare che una classe vuota vada in errore
+  pass     # è un comando per evitare che una classe venga eseguita facendo passare la lettura di codice oltre
 
 Person2()
 
